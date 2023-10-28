@@ -1,32 +1,20 @@
-.wrapper {
+.header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background: var(--primaty-grey-light, #F6F5F4);
-    width: 1220px;
-    margin: auto;
-}
+    max-width: 1640px;
+    border-radius: 64px;
+    border: 4px solid var(--main-blue-478-bf-9, #478BF9);
+    background: var(--main-navy-blue-110-a-1-d, #110A1D);
+    margin: auto;  
+    margin-top: 4px;
+    padding: 24px;
 
-.wrapper h1 {
-    color: #000;
-    font: 400 16px Dela Gothic One;
-}
-
-.wrapper .btns {
-    display: flex;
-    align-items: center;
-}
-
-.wrapper .btns .login {
-    color: #000;
-    font: 700 16px Montserrat;
-    margin-right: 25px;
-}
-
-.wrapper .btns .reg {
-    color: #FFF;
-    font: 700 16px Montserrat;
-    border-radius: 14.188px;
-    background: #2B788B;
-    padding: 13px 20px;
+    .nav {
+        display: flex;
+        align-items: center;
+        font: 400 16px Lexend;
+        color: var(--main-clean-white-ffffff, #FFF);
+        gap: 32px;
+        margin: auto;
+    }
 }
