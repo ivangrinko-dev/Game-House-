@@ -1,20 +1,49 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1640px;
-    border-radius: 64px;
-    border: 4px solid var(--main-blue-478-bf-9, #478BF9);
-    background: var(--main-navy-blue-110-a-1-d, #110A1D);
-    margin: auto;  
-    margin-top: 4px;
-    padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1640px;
+  border-radius: 64px;
+  border: 4px solid var(--main-blue-478-bf-9, #478bf9);
+  background: var(--main-navy-blue-110-a-1-d, #110a1d);
+  margin: auto;
+  margin-top: 4px;
+  padding: 24px;
 
-    .nav {
-        display: flex;
-        align-items: center;
-        font: 400 16px Lexend;
-        color: var(--main-clean-white-ffffff, #FFF);
-        gap: 32px;
-        margin: auto;
+  .nav {
+    display: flex;
+    align-items: center;
+    font: 400 16px Lexend;
+    color: var(--main-clean-white-ffffff, #fff);
+    gap: 32px;
+    margin: auto;
+  }
+
+  .btns {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    button {
+      border-radius: 24px;
+      border: 2px solid var(--additional-purple-9-dadf-2, #9dadf2);
+      background: var(--main-navy-blue-110-a-1-d, #110a1d);
+      font: 400 16px Lexend;
+      color: var(--main-clean-white-ffffff, #fff);
+      padding: 14px;
+
+      span {
+        display: inline-block;
+        background-image: url(./assets/fngm4f41.bmp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 16px;
+        height: 14px;
+      }
+
+      &.btnActionRegister {
+        background: var(--main-blue-478-bf-9, #478bf9);
+        width: 110px;
+      }
     }
+  }
 }
