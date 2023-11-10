@@ -1,0 +1,142 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+    width: 1920px;
+    border-radius: 64px;
+    border-radius: 64px 64px 0px 0px;
+    border-top: 4px solid var(--main-blue-478-bf-9, #478BF9);
+    border-right: 4px solid var(--main-blue-478-bf-9, #478BF9);
+    border-left: 4px solid var(--main-blue-478-bf-9, #478BF9);
+    background: var(--main-deep-blue-1-e-1231, #1E1231);
+    padding: 40px 140px 24px 140px;
+    gap: 32px;
+
+    .nav {
+        display: flex;
+        align-items: flex-end;
+        font: 400 16px Lexend;
+        color: var(--main-clean-white-ffffff, #FFF);
+        gap: 32px;
+
+        p:first-child {
+            color: var(--main-blue-478-bf-9, #478BF9);
+            text-decoration: underline;
+        }
+    }
+
+    .link {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        flex-direction: column;
+        gap: 12px;
+
+        p {
+            font: 400 16px Lexend;
+            color: var(--main-clean-white-ffffff, #FFF);
+        }
+
+        .images {
+            display: flex;
+            gap: 8px;
+
+            .img1 {
+                background-image: url(./assets/img1.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img1:hover {
+                background-image: url(./assets/img11.png);
+            }
+
+            .img2 {
+                background-image: url(./assets/img2.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img2:hover {
+                background-image: url(./assets/img22.png);
+            }
+
+            .img3 {
+                background-image: url(./assets/img3.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img3:hover {
+                background-image: url(./assets/img33.png);
+            }
+
+            .img4 {
+                background-image: url(./assets/img4.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img4:hover {
+                background-image: url(./assets/img44.png);
+            }
+
+            .img5 {
+                background-image: url(./assets/img5.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img5:hover {
+                background-image: url(./assets/img55.png);
+            }
+
+            .img6 {
+                background-image: url(./assets/img6.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img6:hover {
+                background-image: url(./assets/img66.png);
+            }
+
+            .img7 {
+                background-image: url(./assets/img7.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img7:hover {
+                background-image: url(./assets/img77.png);
+            }
+
+            .img8 {
+                background-image: url(./assets/img8.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img8:hover {
+                background-image: url(./assets/img88.png);
+            }
+        }
+    }
+}

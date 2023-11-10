@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header";
-//import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 //import style from "./landingPage.module.scss";
 
 export default function LandingPage() {
@@ -27,7 +27,7 @@ export default function LandingPage() {
                 </div>
             </div> */}
 
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
